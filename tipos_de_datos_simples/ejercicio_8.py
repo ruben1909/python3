@@ -1,0 +1,5 @@
+n = int(input("introduce un dividendo :"))
+m = int(input("introduce un divisor :"))
+c = round(n/m,2)
+r = round(n%m,2)
+print(f"{n} entre {m} da un cociente de {c} y un resto de {r}")
