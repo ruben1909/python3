@@ -1,0 +1,1 @@
+precio = input("introduce un precio de un producto: ")
