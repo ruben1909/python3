@@ -1,4 +1,4 @@
-sexo = input("intruduce tu sexo (M o F): ")
+sexo = input("introduce tu sexo (M o F): ")
 nombre = input("introduce tu nombre: ")
 
 if nombre < "m" and sexo.lower() == "f":
