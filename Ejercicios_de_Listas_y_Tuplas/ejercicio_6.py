@@ -13,4 +13,11 @@ print()
 print("Asignaturas pendientes de aprobar")
 for i in range(len(asignaturas)):
     print(f"Repites {asignaturas[i]} con un {notas[i]}")
+
+# for asignatura in asignaturas[:]:
+#     nota = float(input(f"¿Qué nota has sacado en {asignatura}?: "))
+#     if nota >= 5:
+#         asignaturas.remove(asignatura)
+
+# print("Tienes que repetir:", asignaturas)
         
